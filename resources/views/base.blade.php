@@ -7,7 +7,7 @@
 
         <title>{{ env('APP_NAME') }}</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
         @stack('extra-head')
     </head>
