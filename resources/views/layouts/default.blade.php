@@ -1,8 +1,8 @@
 @extends('base')
 
-@section('content')
+@section('layout_content')
 	<div class="container site-content">
-		<h1>Here we go!</h1>
-		<p>asdasdasd</p>		
+		<h1>@yield('title')</h1>
+		@yield('content')
 	</div>
 @endsection

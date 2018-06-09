@@ -1,7 +1,8 @@
 .btn{
   display: inline-block;
-  color: $bright;
+  color: $white;
   font-size: 1.2rem;
+  line-height: $lineHeight;
   box-sizing: border-box;
   padding: $space/2 $space;
   text-decoration: none;
