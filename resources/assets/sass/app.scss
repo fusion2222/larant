@@ -1,7 +1,9 @@
 @import 'vars';
+@import 'navbar';
 
 body{
-	background-color: $white;
+	background-color: $bright;
 	margin: 0px;
 	padding: 0px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }

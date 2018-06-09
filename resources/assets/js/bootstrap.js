@@ -1,5 +1,7 @@
+window.App = {someValue: 1};
 
 (function(){
+
 	let token = document.head.querySelector('meta[name="csrf-token"]');
 	
 	if (token) {
@@ -7,4 +9,5 @@
 	} else {
 	    console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
 	}
+
 })();

@@ -12,6 +12,8 @@
         @stack('extra-head')
     </head>
     <body>
+        @include('includes.navbar')
+        <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
         @stack('extra-scripts')
     </body>
 </html>
