@@ -13,6 +13,7 @@
     </head>
     <body>
         @include('includes.navbar')
+        @yield('content')
         <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
         @stack('extra-scripts')
     </body>

@@ -2,5 +2,5 @@
 
 
 Route::get('/', function () {
-    return view('base');
+    return view('layouts.default');
 });
